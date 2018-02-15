@@ -28,7 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 
-	$.get("http://localhost:3000/project/" + idNumber, callBack);
+	$.get("https://ktlab6.herokuapp.com/project/" + idNumber, callBack);
 
 }
 
